@@ -42,3 +42,9 @@ class TensorCalculator():
         tplusone = tensor1 + tones
         return tplusone
 
+    @staticmethod
+    def tensor_multN(tensor1, n):
+        tmult = torch.mul(tensor1, n)
+        return tmult
+
+
